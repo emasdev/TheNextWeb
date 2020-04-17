@@ -152,7 +152,7 @@ a {
 @media screen and (max-width: 768px) {
   .nav-bottom-right img {
     display: block;
-    margin-left: 66px;
+    /* margin-left: 66px; */
   }
   .nav-bottom-right i {
     display: none;
@@ -181,41 +181,6 @@ a {
   grid-row: 2;
   grid-column: 2/3;
 }
-
-/* .firstgrid {
-    background-repeat: no-repeat;
-    background-size: cover;
-    grid-row: 1;
-    grid-column: 1;
-}
-
-.firstrowfirstgrid {
-    background-image: url('https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.logo {
-    max-height: 112px;
-    max-width: 50%;
-    height: 100%;
-    width: 100%;
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg");
-    background-repeat: no-repeat;
-}
-
-.secondgrid {
-    grid-row: 1;
-    grid-column: 2/3;
-}
-
-.secondgrid div:first-child {
-    background-color: purple;
-}
-
-.secondgrid div:nth-child(2) {
-    background-color: yellow;
-} */
 
 html {
   background-color: greenyellow;
@@ -336,4 +301,31 @@ article a {
 
 .article-info .title {
   font-size: 1.3rem;
+}
+
+#duplicate {
+  display: none;
+}
+
+.main-articles .left {
+  padding: 5px 5px 0 5px;
+}
+
+@media screen and (max-width: 768px) {
+  #duplicate {
+    display: block;
+  }
+
+  .main-articles {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+  }
+  .main-articles .left {
+    display: none;
+  }
+
+  .main-articles article {
+    height: 25vh;
+  }
 }
