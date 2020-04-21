@@ -531,6 +531,127 @@ b {
   width: 25em;
 }
 
+/* Categories */
+.categories {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.categories .box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.article .gradient {
+}
+
+.box .article-img {
+  width: 100%;
+  height: auto;
+}
+
+.categories .gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 50;
+}
+
+.categories section {
+  height: 100%;
+}
+
+.categories .article-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 50;
+}
+
+.categories .gradient {
+  position: absolute;
+  z-index: 50;
+}
+
+.categories .article-info header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.categories .title {
+  color: #f42;
+  font-weight: bold;
+  font-size: 1.7rem;
+  padding-bottom: 1rem;
+}
+
+.links li {
+  list-style-type: circle;
+}
+
+.categories .article-info-section {
+  font-size: 0.9rem;
+}
+
+.categories .article-info-date {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.article-latest {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff4f2;
+}
+
+.article-latest .left {
+  padding: 1rem;
+}
+
+.article-latest .article-img {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Screenshot_20200421-130623_Netflix.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 96px;
+  width: 96px;
+}
+
+.article-latest h2 {
+  font-size: 1rem;
+}
+
+.article-latest .left {
+  color: #f42;
+  font-size: 13px;
+}
+
+.categories ul {
+  padding-left: 24px;
+  color: #f42;
+}
+
+.categories li {
+  padding: 6px;
+  border-bottom: 1px solid #aaaaaa75;
+}
+
+.categories a {
+  color: #555555;
+}
+
+.categories article {
+  position: relative;
+}
+
+/* End Categories */
+
 @media screen and (max-width: 768px) {
   #duplicate {
     display: block;
@@ -655,136 +776,3 @@ b {
     min-height: 60px;
   }
 }
-
-/* Categories */
-.categories {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-.categories .box {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  padding: 1rem;
-}
-
-.article .gradient {
-}
-
-.box .article-img {
-  width: 100%;
-  height: auto;
-}
-
-.box .article-info {
-}
-
-/* .gradient {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 500;
-} */
-
-.categories .gradient {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 50;
-}
-
-.categories section {
-  height: 100%;
-}
-
-.categories .article-info {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 50;
-}
-
-.categories .gradient {
-  position: absolute;
-  z-index: 50;
-}
-
-.categories .article-info header {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 0.5rem;
-}
-
-.categories .title {
-  color: #f42;
-  font-weight: bold;
-  font-size: 1.7rem;
-  padding-bottom: 1rem;
-}
-
-.links li {
-  list-style-type: circle;
-}
-
-.categories .article-info-section {
-  font-size: 0.9rem;
-}
-
-.categories .article-info-date {
-  color: hsla(0, 0%, 100%, 0.6);
-}
-
-.article-latest {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #fff4f2;
-}
-
-.article-latest .left {
-  padding: 1rem;
-}
-
-.article-latest .article-img {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Screenshot_20200421-130623_Netflix.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 96px;
-  width: 96px;
-}
-
-.article-latest h2 {
-  font-size: 1rem;
-}
-
-.article-latest .left {
-  color: #f42;
-  font-size: 13px;
-}
-
-.categories ul {
-  padding-left: 24px;
-  color: #f42;
-}
-
-.categories li {
-  padding: 6px;
-  border-bottom: 1px solid #aaaaaa75;
-}
-
-.categories a {
-  color: #555555;
-}
-
-.categories article {
-  position: relative;
-}
-
-/* End Categories */
