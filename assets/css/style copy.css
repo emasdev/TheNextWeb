@@ -171,10 +171,6 @@ a {
   grid-column: 2/3;
 }
 
-html {
-  background-color: greenyellow;
-}
-
 main {
   margin: 0 auto;
   max-width: 1192px;
@@ -412,6 +408,13 @@ article a {
   padding: 10px;
 }
 
+.latest-news a {
+  color: black;
+}
+
+.latest-news p {
+  color: #555555;
+}
 /* Smallest screen 768px */
 
 @media screen and (max-width: 768px) {
@@ -531,6 +534,7 @@ article a {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  padding: 1rem;
 }
 
 .article .gradient {
@@ -566,13 +570,6 @@ article a {
   height: 100%;
 }
 
-.categories section:nth-child(odd) {
-  background: #ccc;
-}
-.categories section:nth-child(even) {
-  background: #eee;
-}
-
 .categories .article-info {
   position: absolute;
   top: 0;
@@ -589,17 +586,68 @@ article a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
-.categories .links {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.categories .title {
+  color: #f42;
+  font-weight: bold;
+  font-size: 1.7rem;
+  padding-bottom: 1rem;
 }
 
 .links li {
   list-style-type: circle;
+}
+
+.categories .article-info-section {
+  font-size: 0.9rem;
+}
+
+.categories .article-info-date {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.article-latest {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff4f2;
+}
+
+.article-latest .left {
+  padding: 1rem;
+}
+
+.article-latest .article-img {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Screenshot_20200421-130623_Netflix.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 96px;
+  width: 96px;
+}
+
+.article-latest h2 {
+  font-size: 1rem;
+}
+
+.article-latest .left {
+  color: #f42;
+  font-size: 13px;
+}
+
+.categories ul {
+  padding-left: 24px;
+  color: #f42;
+}
+
+.categories li {
+  padding: 6px;
+  border-bottom: 1px solid #aaaaaa75;
+}
+
+.categories a {
+  color: #555555;
 }
 
 @media screen and (max-width: 768px) {
@@ -622,10 +670,10 @@ article a {
   }
 
   .categories .box:nth-child(odd) {
-    padding-right: 1rem;
+    /* padding-right: 1rem; */
   }
 
   .categories .box:nth-child(even) {
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
   }
 }
