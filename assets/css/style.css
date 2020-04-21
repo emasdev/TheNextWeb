@@ -251,10 +251,11 @@ article a {
 }
 
 .main .logo {
-  width: 100%;
+  width: 50%;
+  height: auto;
 }
 
-.main .top {
+.main .main .top {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 1rem;
@@ -262,6 +263,10 @@ article a {
 
 .main .top {
   text-align: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem;
 }
 
 .article-1 {
