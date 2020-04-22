@@ -27,14 +27,12 @@ top: 0;
   z-index: 100;
 }
 
-
 /* Hide Hamburger */
 
 #page-nav label,
 #hamburger {
   display: none;
 }
-
 
 /* Menu Items */
 
@@ -65,7 +63,6 @@ top: 0;
   padding: 10px 4px;
   box-sizing: border-box;
 }
-
 
 /* [ON SMALL SCREENS] */
 
@@ -275,7 +272,6 @@ article a {
 }
 
 .gradient {
-  <<<<<<< HEAD
   background: rgb(0, 0, 0);
   background:
     linear-gradient(
@@ -284,11 +280,14 @@ article a {
       rgba(139, 139, 139, 0) 100%
     );
   height: 100%;
-  =======
-    background: rgb(0, 0, 0);
-  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(139, 139, 139, 0) 100%);
+  background: rgb(0, 0, 0);
+  background:
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(139, 139, 139, 0) 100%
+    );
   height: 100%;
->>>>>>> 49554e5808578c04c48f22d12dabb9492d9b7a82
 }
 
 article .content {
@@ -369,7 +368,6 @@ article .bottom {
   padding: 5px 5px 0 5px;
 }
 
-
 /* firstsection */
 
 .firstsection,
@@ -411,7 +409,6 @@ article .bottom {
   color: #ff4421;
   text-decoration: underline;
 }
-
 
 /* secondsection */
 
@@ -478,9 +475,7 @@ article .bottom {
   padding: 10px;
 }
 
-
 /* Smallest screen 768px */
-
 
 /* Lates deals */
 
@@ -538,7 +533,6 @@ header a:hover {
   color: #555;
   font-size: 16px;
 }
-
 
 /* FOOTER */
 
@@ -623,7 +617,6 @@ footer .fa {
   display: flex;
   width: 25em;
 }
-
 
 /* Categories */
 
@@ -765,7 +758,6 @@ footer .fa {
 .categories article {
   position: relative;
 }
-
 
 /* End Categories */
 
