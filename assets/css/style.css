@@ -164,6 +164,19 @@ header a {
     color: #ff4421;
 }
 
+.row1 a {
+    color: #555;
+}
+
+.article-latest a {
+    color: #f42;
+    font-size: 13px;
+}
+
+.categories a {
+    color: var(--bg-color--darkgrey);
+}
+
 .secondsection li a {
     color: #ff4421;
 }
@@ -172,8 +185,8 @@ header a:hover {
     color: var(--bg-color--black);
 }
 
-.row1 a {
-    color: #555;
+.secondsection header>a {
+    color: #ff4421;
 }
 
 .nav-top a:hover {
@@ -189,10 +202,6 @@ header a:hover {
     justify-content: space-between;
     background-color: var(--bg-color--white);
     height: 48px;
-}
-
-.row1 a {
-    color: #555;
 }
 
 footer .fa {
@@ -483,26 +492,13 @@ article .bottom {
     color: var(--bg-color--white);
 }
 
-.article-latest a {
-    color: #f42;
-    font-size: 13px;
-}
-
 .article-latest a:hover {
     color: #f42;
     text-decoration: underline #f42;
 }
 
-.categories a {
-    color: var(--bg-color--darkgrey);
-}
-
 .categories a:hover {
     color: var(--bg-color--black);
-}
-
-.secondsection header>a {
-    color: #ff4421;
 }
 
 .secondsection header>a:hover {
