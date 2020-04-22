@@ -58,6 +58,10 @@ top: 0;
   border-right: 1px solid gray;
 }
 
+.secondsection li:last-child {
+  border-right: none;
+}
+
 #page-nav ul li {
   display: inline-block;
   padding: 10px 4px;
@@ -102,6 +106,10 @@ article a {
   font-size: 0.8rem;
 }
 
+header a {
+  color: #ff4421;
+}
+
 .nav-top a {
   color: var(--bg-color--darkgrey);
 }
@@ -121,7 +129,24 @@ article a {
 }
 
 .article-info a {
+  font-size: 0.8rem;
   color: var(--bg-color--white);
+}
+
+.secondsection header > a {
+  color: #ff4421;
+}
+
+.secondsection li a {
+  color: #ff4421;
+}
+
+header a:hover {
+  color: var(--bg-color--black);
+}
+
+.row1 a {
+  color: #555;
 }
 
 .nav-top a:hover {
@@ -184,6 +209,17 @@ article a {
   width: 100%;
   height: 10em;
   cursor: pointer;
+}
+
+.main .top img {
+  width: 50%;
+}
+
+.sectiongrid2 img {
+  max-width: 60px;
+  min-width: 60px;
+  position: absolute;
+  margin: 11px;
 }
 
 #page-nav .logo img {
@@ -280,14 +316,6 @@ article a {
       rgba(139, 139, 139, 0) 100%
     );
   height: 100%;
-  background: rgb(0, 0, 0);
-  background:
-    linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 1) 0%,
-      rgba(139, 139, 139, 0) 100%
-    );
-  height: 100%;
 }
 
 article .content {
@@ -326,10 +354,6 @@ article .bottom {
   padding: 1rem;
 }
 
-.main .top img {
-  width: 50%;
-}
-
 .article-1 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/DDAudiobook-796x417.jpg");
   background-position: top left;
@@ -350,10 +374,6 @@ article .bottom {
 
 .article-info .article-links {
   padding: 0 1rem 1rem 1rem;
-}
-
-.article-info a {
-  font-size: 0.8rem;
 }
 
 .article-info .title {
@@ -401,10 +421,6 @@ article .bottom {
   grid-gap: 10px;
 }
 
-.secondsection header > a {
-  color: #ff4421;
-}
-
 .sectiongrid a:hover {
   color: #ff4421;
   text-decoration: underline;
@@ -422,27 +438,12 @@ article .bottom {
   color: var(--bg-color--black);
 }
 
-.secondsection li:last-child {
-  border-right: none;
-}
-
-.secondsection li a {
-  color: #ff4421;
-}
-
 .sectiongrid2 {
   height: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   grid-gap: 10px;
-}
-
-.sectiongrid2 img {
-  max-width: 60px;
-  min-width: 60px;
-  position: absolute;
-  margin: 11px;
 }
 
 .firstrow {
@@ -478,14 +479,6 @@ article .bottom {
 /* Smallest screen 768px */
 
 /* Lates deals */
-
-header a {
-  color: #ff4421;
-}
-
-header a:hover {
-  color: var(--bg-color--black);
-}
 
 .bckga {
   background-size: cover;
@@ -554,10 +547,6 @@ footer {
   background-color: #131313;
   width: 100%;
   flex: 2;
-}
-
-.row1 a {
-  color: #555;
 }
 
 .row1 a:hover {
