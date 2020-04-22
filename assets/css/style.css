@@ -56,12 +56,6 @@ top: 0;
   color: #f42;
 }
 
-#page-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
 .secondsection li {
   padding: 0 10px;
   list-style: none;
@@ -113,6 +107,8 @@ a {
 
 #page-nav ul {
   padding: 0 1rem;
+  list-style-type: none;
+  margin: 0;
 }
 
 article {
@@ -162,10 +158,6 @@ header a {
   color: var(--bg-color--white);
 }
 
-.secondsection header > a {
-  color: #ff4421;
-}
-
 .secondsection li a {
   color: #ff4421;
 }
@@ -174,8 +166,8 @@ header a:hover {
   color: var(--bg-color--black);
 }
 
-.row1 a {
-  color: #555;
+.secondsection header > a {
+  color: #ff4421;
 }
 
 .nav-top a:hover {
@@ -241,6 +233,10 @@ footer .fa {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.main p {
+  display: none;
 }
 
 #page-nav .logo {
@@ -485,22 +481,22 @@ article .bottom {
   color: var(--bg-color--white);
 }
 
-.article-latest a {
-  color: #f42;
-  font-size: 13px;
-}
-
 .article-latest a:hover {
   color: #f42;
   text-decoration: underline #f42;
 }
 
-.categories a {
-  color: var(--bg-color--darkgrey);
-}
-
 .categories a:hover {
   color: var(--bg-color--black);
+}
+
+.article-latest a {
+  color: #f42;
+  font-size: 13px;
+}
+
+.categories a {
+  color: var(--bg-color--darkgrey);
 }
 
 .secondsection header > a {
@@ -911,11 +907,6 @@ b {
 
   .main .red-gradient {
     background-image: none;
-  }
-
-  .main .logo,
-  .main p {
-    display: none;
   }
 
   /* CATEGORIES */
