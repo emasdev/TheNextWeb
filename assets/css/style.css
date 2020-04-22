@@ -2,7 +2,7 @@
   --bg-color--darkgrey: #555;
   --bg-color--lightgrey: #aaa;
   --bg-color--black: #000;
-  --bg-color--white: var(--bg-color--white);
+  --bg-color--white: #fff;
 }
 
 h1,
@@ -548,7 +548,7 @@ footer {
 }
 
 .row2 {
-  background-color: var(--bg-color--black) 000;
+  background-color: var(--bg-color--black);
   width: 100%;
   display: flex;
   justify-content: center;
