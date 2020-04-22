@@ -317,6 +317,10 @@ article .bottom {
   padding: 1rem;
 }
 
+.main .top img {
+  width: 50%;
+}
+
 .article-1 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/DDAudiobook-796x417.jpg");
   background-position: top left;
