@@ -1,57 +1,41 @@
-# Project Name
+# The Next Web 
 
-> One paragraph statement about the project.
+> Clone Main Page of The Next Web
 
-![screenshot](./app_screenshot.png)
+![screenshot](./assets/imgs/1.png)
+![screenshot](./assets/imgs/2.png)
+![screenshot](./assets/imgs/3.png)
 
-Additional description about the project and its features.
+
+
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML
+- CSS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link](https://rawcdn.githack.com/emasdev/TheNextWeb/ab7c260ae8a1565866b155e6aa426ecfa01c9019/index.html)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- A web browser that can read HTML and CSS
 
 ## Authors
 
-👤 **Author1**
+👤 **Fernando**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@Ferm0494](https://github.com/Ferm0494)
+- Twitter: [@ferm494](https://twitter.com/ferm494)
+- Linkedin: [@Ferm0494](https://www.linkedin.com/in/ferm0494/)
 
-👤 **Author2**
+👤 **Emanuel**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/emasdev)
+
 
 ## 🤝 Contributing
 
@@ -62,12 +46,6 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
