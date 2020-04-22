@@ -568,6 +568,7 @@ footer .fa {
     color: #fff;
     background-color: #333;
     border-radius: 50%;
+    border: 1px solid #333;
 }
 
 .row1 div:first-child {
@@ -578,7 +579,6 @@ footer .fa {
 
 .row1 div:first-child .fa:hover {
     background-color: transparent;
-    /* border: 1px solid #333; */
 }
 
 .row1 div:nth-child(2) {
@@ -803,6 +803,19 @@ footer .fa {
     }
     .categories .gradient {
         width: 100%;
+    }
+    /* FOOTER */
+    .row1 div:first-child {
+        width: 20em;
+    }
+    .row1 ul {
+        margin-left: 2em;
+    }
+    .row1 li {
+        padding: 0;
+    }
+    .row2 {
+        flex-direction: column;
     }
 }
 
